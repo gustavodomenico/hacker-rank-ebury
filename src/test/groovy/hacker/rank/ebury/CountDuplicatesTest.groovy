@@ -5,10 +5,10 @@ package hacker.rank.ebury
 
 import spock.lang.Specification
 
-class LibraryTest extends Specification {
+class CountDuplicatesTest extends Specification {
     def "someLibraryMethod returns true"() {
         setup:
-        def lib = new Library()
+        def lib = new CountDuplicates()
 
         when:
         def result = lib.someLibraryMethod()
